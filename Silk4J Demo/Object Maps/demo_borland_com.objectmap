@@ -1,0 +1,10 @@
+<ObjectMap version="1">
+  <ObjectMapEntry id="demo_borland_com" locator="//BrowserApplication" urlPattern="*demo.borland.com*">
+    <ObjectMapEntry id="BrowserWindow" locator="//BrowserWindow">
+      <ObjectMapEntry id="mnuAbout" locator="//A[@id=&apos;mnuAbout&apos;]"/>
+      <ObjectMapEntry id="sctGMOtxt" locator="//P[@id=&apos;sctGMOtxt&apos;]"/>
+      <ObjectMapEntry id="showMenu" locator="//IMG[@id=&apos;showMenu&apos;]"/>
+      <ObjectMapEntry id="storeBtn" locator="//A[@id=&apos;storeBtn&apos;]"/>
+    </ObjectMapEntry>
+  </ObjectMapEntry>
+</ObjectMap>
