@@ -1,10 +1,31 @@
 <ObjectMap version="1">
   <ObjectMapEntry id="demo_borland_com" locator="//BrowserApplication" urlPattern="*demo.borland.com*">
     <ObjectMapEntry id="BrowserWindow" locator="//BrowserWindow">
+      <ObjectMapEntry id="addButton" locator="//LI[@id=&apos;item&apos;]/BUTTON[@id=&apos;addButton&apos;]"/>
+      <ObjectMapEntry id="address" locator="//INPUT[@id=&apos;address&apos;]"/>
+      <ObjectMapEntry id="address2" locator="//INPUT[@id=&apos;address2&apos;]"/>
+      <ObjectMapEntry id="card_num" locator="//INPUT[@id=&apos;card_num&apos;]"/>
+      <ObjectMapEntry id="cart confirm image" locator="//IMG[@id=&apos;cart confirm image&apos;]"/>
+      <ObjectMapEntry id="city" locator="//INPUT[@id=&apos;city&apos;]"/>
+      <ObjectMapEntry id="confirmBtn" locator="//BUTTON[@id=&apos;confirmBtn&apos;]"/>
+      <ObjectMapEntry id="countries" locator="//SELECT[@id=&apos;countries&apos;]"/>
+      <ObjectMapEntry id="cvv" locator="//INPUT[@id=&apos;cvv&apos;]"/>
+      <ObjectMapEntry id="email" locator="//INPUT[@id=&apos;email&apos;]"/>
+      <ObjectMapEntry id="exp_date" locator="//INPUT[@id=&apos;exp_date&apos;]"/>
+      <ObjectMapEntry id="FinishOrder" locator="//BUTTON[@id=&apos;FinishOrder&apos;]"/>
+      <ObjectMapEntry id="full_name" locator="//INPUT[@id=&apos;full_name&apos;]"/>
+      <ObjectMapEntry id="headerTitle" locator="//H1[@id=&apos;headerTitle&apos;]"/>
       <ObjectMapEntry id="mnuAbout" locator="//A[@id=&apos;mnuAbout&apos;]"/>
+      <ObjectMapEntry id="Modal Cart Total" locator="//H2[@id=&apos;Modal Cart Total&apos;]"/>
+      <ObjectMapEntry id="modalBtn Confirm" locator="//A[@id=&apos;modalBtn Confirm&apos;]"/>
+      <ObjectMapEntry id="pay_name" locator="//INPUT[@id=&apos;pay_name&apos;]"/>
+      <ObjectMapEntry id="phone" locator="//INPUT[@id=&apos;phone&apos;]"/>
+      <ObjectMapEntry id="qtyInput" locator="//LI[@id=&apos;item&apos;]/DIV[@id=&apos;item qty&apos;]/INPUT[@id=&apos;qtyInput&apos;]"/>
       <ObjectMapEntry id="sctGMOtxt" locator="//P[@id=&apos;sctGMOtxt&apos;]"/>
       <ObjectMapEntry id="showMenu" locator="//IMG[@id=&apos;showMenu&apos;]"/>
       <ObjectMapEntry id="storeBtn" locator="//A[@id=&apos;storeBtn&apos;]"/>
+      <ObjectMapEntry id="submitFormIMG" locator="//IMG[@id=&apos;submitFormIMG&apos;]"/>
+      <ObjectMapEntry id="zip" locator="//INPUT[@id=&apos;zip&apos;]"/>
     </ObjectMapEntry>
   </ObjectMapEntry>
 </ObjectMap>
