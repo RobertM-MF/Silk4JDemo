@@ -22,6 +22,10 @@ public class GMOAjax {
 		baseState.execute(desktop);
 	}
 
+	
+	/**
+	 * Verifies the About Us message
+	 */
 	@Test
 	public void verifyAboutUsMessage() {
 		desktop.<DomLink>find("demo_borland_com.BrowserWindow.storeBtn").click();
@@ -33,6 +37,15 @@ public class GMOAjax {
 				sctGMOtxt.getText());
 	}
 
+	/**
+	 * Performs a simple transaction against the GMO Ajax test site.
+	 * 
+	 * Adds two pairs of boots to the cart.
+	 * Verifies the total price of the cart.
+	 * Confirms the order.
+	 * Enters 
+	 * 
+	 */
 	@Test
 	public void orderTransaction() {
 		desktop.<DomLink>find("demo_borland_com.BrowserWindow.storeBtn").click();
