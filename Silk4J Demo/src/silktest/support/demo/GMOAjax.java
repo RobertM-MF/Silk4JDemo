@@ -43,7 +43,9 @@ public class GMOAjax {
 	 * Adds two pairs of boots to the cart.
 	 * Verifies the total price of the cart.
 	 * Confirms the order.
-	 * Enters 
+	 * Enters the customer details.
+	 * Verifies the ORDER CONFIRMATION message is displayed.
+	 * Clicks the Finish Order button
 	 * 
 	 */
 	@Test
